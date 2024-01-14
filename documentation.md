@@ -10,3 +10,17 @@
   * Making a command in a container : `docker-compose exec CONTAINER_NAME COMMAND` where `COMMAND` is your command. Examples :  
     - Open a console in the php-fpm container : `docker-compose exec php bash`
     - Open the Symfony console : `docker-compose exec php bin/console`
+
+## Enable temporary alias commands
+```bash
+$ . ./alias
+```
+
+## Alias commands
+- `composer install`
+- `artisan server`
+
+## Artisan commands
+- `docker compose run --rm composer update`
+- `docker compose run --rm artisan migrate`
+- `docker compose run --rm npm run dev`
