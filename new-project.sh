@@ -16,4 +16,7 @@ if test -d laravel;
     echo "There error"
   else
     echo "New project initiated!"
+    
+    # Self destruct
+    rm -r new-project.sh
 fi
