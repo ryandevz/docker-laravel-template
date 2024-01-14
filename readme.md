@@ -6,8 +6,8 @@
 
 # New project
 ```bash
-. ./alias
-composer create-project laravel/laravel project
+$ ./new-project.sh
+$ . ./alias
 ```
 
 # How-to
