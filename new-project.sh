@@ -1,15 +1,19 @@
 #!/bin/bash
+
 # Create laravel project
-docker compose run --rm composer create-project laravel/laravel project
+docker compose run --rm composer create-project laravel/laravel laravel
 
 # Move to root folder
-mv project/* ./   # your current approach
-mv project/.* ./  # this one for hidden files
+shopt -s dotglob
+mv laravel/* ./   # your current approach
 
 # Delete folder and sh file.
-rmdir project
+rmdir laravel
 
 # Create messages success/fail
-if test -d project; then
-  echo "Directory deleted, everything works"
+if test -d laravel; 
+  then
+    echo "There error"
+  else
+    echo "New project initiated!"
 fi
