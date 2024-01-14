@@ -11,6 +11,10 @@
     - Open a console in the php-fpm container : `docker compose exec php bash`
     - Open the Symfony console : `docker compose exec php bin/console`
 
+## File permission for execution
+```
+chmod +x <filename>
+```
 ## Enable temporary alias commands
 ```bash
 $ . ./alias
