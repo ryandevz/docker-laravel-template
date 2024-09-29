@@ -2,10 +2,6 @@
 # PHP application Docker container
 #######################################
 
-
-# PHP application Docker container
-version: '3'
-
 networks:
   laravel:
 
