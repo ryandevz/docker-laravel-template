@@ -20,6 +20,11 @@ chmod +x <filename>
 $ . ./alias
 ```
 
+## Add gitignore patternt
+```
+/docker/database-data/
+```
+
 ## Alias commands
 - `composer install`
 - `artisan server`
