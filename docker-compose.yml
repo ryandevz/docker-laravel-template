@@ -31,7 +31,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./database-data:/var/lib/postgresql/data
+      - ./docker/database-data:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: homestead
       POSTGRES_USER: homestead
